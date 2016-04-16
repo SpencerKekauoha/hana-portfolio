@@ -1,0 +1,215 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700|Leckerli+One|Playfair+Display);
+
+.landing-container {
+}
+
+.landing-name {
+  display: flex;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 4vh;
+  letter-spacing: 2px;
+  margin: 4vh;
+}
+
+.landing {
+  display: flex;
+  justify-content: center;
+}
+
+.landing-img {
+ height: 80vh;
+ width: auto;
+ padding: 5vh;
+ border: 2px solid grey;
+}
+
+/*hover effects*/
+
+.landing-img {
+  color: #fff;
+  transition: all .3s ease;
+}
+.landing-img:hover {
+  text-shadow: 1px 1px 0 #37cdf5, 2px 2px 0 #1fc7f3, 3px 3px 0 #0cbdec;
+  transform: translate(-3px, -3px);
+}
+
+/*hover effects*/
+
+.site-nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin: 3vh;
+}
+
+.nav-menu-item {
+}
+
+.nav-link {
+  font-family: 'Playfair Display', serif;
+}
+
+.nav-link:link {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link:visited {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.nav-link {
+  padding-top: 10px;
+}
+
+
+a, a > span {
+  position: relative;
+  color: inherit;
+  text-decoration: none;
+  line-height: 24px;
+}
+
+a:before, a:after, a > span:before, a > span:after {
+  content: '';
+  position: absolute;
+  transition: transform .5s ease;
+}
+
+.nav-link:before {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #0883a4;
+  transform: scaleX(0);
+}
+.nav-link:hover:before {
+  transform: scaleX(1);
+}
+
+  /*ABOUT VIEW*/
+
+.about-view {
+  display: flex;
+  justify-content: center;
+}
+
+.about-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 4vh;
+  margin: 3vh;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  margin: 0 10vw 0 10vw;
+}
+
+.paragraph-text {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+/*ABOUT VIEW END*/
+
+
+/*PORTFOLIO VIEW*/
+
+.portfolio-view {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 4vh;
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+  text-align: center;
+}
+
+.portfolio-section {
+  text-align: center;
+}
+
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-card {
+  height: 50vh;
+  width: auto;
+  padding: 5vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-title {
+  font-family: 'Playfair Display', serif;
+}
+
+
+/*PORTFOLIO VIEW END*/
+
+/*POM POM VIEW */
+
+.pompom-view {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-piece-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 4vh;
+  margin: 3vh;
+  text-align: center;
+}
+
+.pompom-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  margin: 0 10vw 0 10vw;
+}
+
+.portfolio-piece-details {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  margin: 0 10vw 0 10vw;
+}
+
+.portfolio-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-image {
+  height: 65vh;
+  width: auto;
+  padding: 3vh;
+}
+
+.redirect-container {
+  display: flex;
+  justify-content: center;
+}
+
+.redirect-link {
+  font-family: 'Playfair Display', serif;
+}
